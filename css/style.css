@@ -1,0 +1,34 @@
+@import url("../css/awesome.css");
+.awesome{
+    width: 100%;
+}
+.container{
+max-width: 1170px;
+padding: 0 15px;
+margin:auto
+}
+.title{
+margin:auto;
+margin-top: 100px;
+width: 409px;
+height: 38px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #212121;
+}
+
+.text{
+
+    margin:auto;
+    margin-top: 30px;
+    width: 363px;
+    height: 19px;
+    font-family: 'Open Sans';
+
+    color: #86878B;
+}
