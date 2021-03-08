@@ -1,17 +1,9 @@
-*{
-margin: 0;
-padding:100px 0;
-}
-
-.line{
-margin:auto;
-margin-top: 25px;
-width: 64px;
-height: 2px;
-border-top: 1px solid #D98943;
-}
-
-.element_row{
+.awesome{
+    margin: 0;
+    padding: 100px 0;
+    width: 100%;
+    }
+.awesome_row{
     margin:auto;
     margin-top: 67px;
     display: flex;
