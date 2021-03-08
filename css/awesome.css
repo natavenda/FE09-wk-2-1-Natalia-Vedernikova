@@ -1,25 +1,27 @@
-/* noname element */
-.line{
+*{
+margin: 0;
+padding:100px 0;
+}
 
+.line{
 margin:auto;
 margin-top: 25px;
 width: 64px;
 height: 2px;
-
 border-top: 1px solid #D98943;
 }
 
 .element_row{
     margin:auto;
     margin-top: 67px;
+    display: flex;
 }
+
 .element{
-    
     display: inline-block;
     margin: auto;
     width: 350px;
-    height: 225px;
-    margin-left: 28px;
+
 }
 
 .circle{
@@ -31,6 +33,7 @@ border-top: 1px solid #D98943;
     border: 1px solid #D98943;
     box-sizing: border-box;
 }
+
 .elem_title{
     margin: auto;
     text-align: center;
@@ -43,6 +46,7 @@ border-top: 1px solid #D98943;
     
     color: #333333;
 }
+
 .elem_text{
     
     width: 350px;
@@ -57,6 +61,7 @@ border-top: 1px solid #D98943;
     
     color: #000000;
 }
+
 .image{
     display: block;
     margin: auto;
