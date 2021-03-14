@@ -1,0 +1,106 @@
+.customers{
+    margin: 0;
+    padding: 100px 0;
+    width: 100%;
+    }
+
+    .title{
+    width: 668px;
+    }
+
+.customers_row{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.customers_element{
+    text-align: center;
+    margin: 0 15px;
+    max-width: 298px;
+
+}
+.customers_element_description{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 9px 22px 6px 23px;
+    color: #86878b;
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customers_element_description::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 17px solid #e2e2e2;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 47px;
+}
+
+.customers_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .customers_name {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #333333;
+  }
+  
+  .customers_name::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 45px;
+  }
+  .cucumber::before{
+    background-image: url('../images/pickle.png');
+  }
+  .morty::before{
+    background-image: url('../images/morty.png');
+  }
+  .rick::before{
+    background-image: url('../images/rick.png');
+  }
+  .customers_text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878b;
+    text-align: center;
+    margin-left: 150px;
+  }

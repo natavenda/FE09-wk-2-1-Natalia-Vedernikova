@@ -1,5 +1,7 @@
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/axure.css");
 
 *{
  margin:0;
@@ -8,21 +10,25 @@
 }
 
 .container{
+position: relative;
+z-index: 1;
 max-width: 1170px;
 padding: 0 15px;
 margin:auto
 }
+
 .line{
-    margin:auto;
-    margin-top: 25px;
-    width: 64px;
-    height: 2px;
-    border-top: 1px solid #D98943;
-    }
+margin:auto;
+margin-top: 25px;
+width: 64px;
+height: 2px;
+border-top: 1px solid #D98943;
+}
+
 .title{
 text-align: center;
+white-space: nowrap;
 margin:auto;
-width: 409px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: normal;

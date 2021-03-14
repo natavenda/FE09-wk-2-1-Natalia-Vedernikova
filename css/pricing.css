@@ -4,7 +4,9 @@
     padding: 100px 0;
     width: 100%;
     }
-
+.title{
+    width: 409px; 
+    }
 .pricing_row{
     margin:auto;
     display: flex;
@@ -16,7 +18,7 @@
     display: inline-block;
     margin: 0 39px;
     width: 340px;
-
+    
 
 }
 .card_title{
