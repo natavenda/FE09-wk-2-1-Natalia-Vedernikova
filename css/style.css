@@ -2,6 +2,9 @@
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
+@import url("../css/footer.css");
+@import url("../css/header.css");
+@import url("../css/socialmedia.css");
 
 *{
  margin:0;
@@ -31,7 +34,7 @@ white-space: nowrap;
 margin:auto;
 font-family: 'Raleway';
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 36px;
 line-height: 42px;
 text-transform: uppercase;
@@ -46,6 +49,5 @@ color: #212121;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
-
     color: #86878B;
 }

@@ -1,0 +1,66 @@
+
+.header{
+    width: 100%;
+    background-color: #000000;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1182px;
+  }
+
+.header_logo{
+    display: inline-block; 
+}
+
+.logo_ax {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 20px 0 19px 0; 
+    color: #ffffff;
+  }
+
+.logo_ax::after{
+content: 'IT';
+font-family: 'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EC7979;
+}
+
+.navigator_buttons{
+display: flex;
+}
+
+.navigator_button{
+    margin-left: 48px;
+}
+
+.navigator_button_text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+position: relative;
+}
+
+.navigator_button_text:hover{
+border-bottom: 1px solid rgba(187, 76, 76, 0.8);
+}

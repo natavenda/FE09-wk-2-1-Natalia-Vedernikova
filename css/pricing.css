@@ -4,26 +4,27 @@
     padding: 100px 0;
     width: 100%;
     }
+
 .title{
     width: 409px; 
     }
+
 .pricing_row{
     margin:auto;
     display: flex;
     margin-top: 63px;
     justify-content: space-around;
-
 }
+
 .pricing-card__item{
     display: inline-block;
     margin: 0 39px;
     width: 340px;
-    
-
 }
 .card_title{
     background: #333333;
 }
+
 .card_subtitle{
     font-family: Open Sans;
     font-size: 20px;
@@ -34,24 +35,23 @@
 }
 
 .border_one{
-
     border-bottom: 1px solid #E5E5E5;
 }
+
 .border_two{
     border-bottom: 2px solid #E5E5E5;
 }
+
 .card-list{
-    
     width: 340px;
     list-style: none;
-
 }
+
 .card-list-item{
     background-color: white;
     margin: 4px 0 4px;
-
-
 }
+
 .price{
 padding: 26px 0 23px;
 font-family: Raleway;
@@ -61,8 +61,8 @@ font-weight: 700;
 line-height: 41px;
 letter-spacing: 0em;
 text-align: center;
-
 }
+
 .item_text{
     color: #86878B;
     font-family: Open Sans;
