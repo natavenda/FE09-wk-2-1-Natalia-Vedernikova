@@ -11,6 +11,16 @@
     justify-content: space-between;
   }
   
+  .socialmedia_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 14px;
+  }
+
   .socialmedia_text {
     font-family: 'Open Sans';
     font-style: normal;
