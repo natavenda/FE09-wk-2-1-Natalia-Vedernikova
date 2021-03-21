@@ -43,6 +43,12 @@
     font-size: 42px;
   }
 
+  .socialmedia_icon:hover{
+    transform: scale(2);
+    transition: 0.8s ease;
+    color:salmon
+  }
+  
   .socialmedia_icons_list{
     display: flex;
     justify-content: space-around;

@@ -1,72 +1,78 @@
-.axure {
-    background-image: url('../images/background.png');
-    background-color: white;
+.axit {
+    background-image: url('../images/background_1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 58px 0 38px;
+    padding: 110px 0 101px;
     position: relative;
     width: 100%;
   }
 
-  .axure::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.55);
+  .axit_main_title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+margin-bottom: 32px;
+color: #FFFFFF;
   }
-  .axure_title{
-    text-align: center;
-    white-space: nowrap;
-    margin:auto;
+
+  .axit_main_title::after{
+    content: 'IT';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 32px;
+    color: #EC7979;
+  }
+
+  .axit_title{
+    max-width: 544px;
+    text-align: left;
+    margin-bottom: 32px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 42.26px;
     text-transform: uppercase;
-    color: #FFFFFF;;
+    color: #FFFFFF;
+    padding: 1px 12px 8px 0;
     }
 
-    .axure_title:hover{
+    .axit_title:hover{
       transform: rotate(360deg);
       transition: 0.8s ease;
-      color: yellow;
-      background-color: turquoise;
+      color: rgb(212, 0, 255);
     }
 
-.axure_line{
-    margin:auto;
-    margin-top: 34px;
+    .axit_line{
     width: 64px;
-    height: 2px;
+    height: 1px;
     border: 1px solid #FFFFFF;
+    margin-bottom: 39px;
     }
   
-    .axure_description{
-    font-family: Raleway;
+    .axit_text{
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 34px 0px;
+    max-width: 282px;
+    text-align: left;
+    margin-bottom: 39px;
     color: rgba(255, 255, 255, 0.8);
     }
 
-    .axure_button{
-    margin: auto;
-    margin-top: 57px;
+    .axit_button{
     border: 1px solid #FFFFFF;
     text-align: center;
     width: 135px;
-    padding: 11px 26px;
+    padding: 11px 27px 11px 25px;
     }
 
     .axure_button:hover{
@@ -75,7 +81,7 @@
     background-color: springgreen;
     }
 
-    .axure_button_name{
+    .axit_button_name{
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;

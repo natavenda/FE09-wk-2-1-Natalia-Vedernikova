@@ -21,6 +21,12 @@
     margin: 0 39px;
     width: 340px;
 }
+
+.pricing-card__item:hover{
+transform: scale(1.3);
+transition: 0.8s ease;
+}
+  
 .card_title{
     background: #333333;
 }
