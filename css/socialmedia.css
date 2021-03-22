@@ -9,6 +9,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 1478px;
   }
   
   .socialmedia_title {
