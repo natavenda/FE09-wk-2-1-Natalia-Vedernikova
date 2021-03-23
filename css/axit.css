@@ -21,10 +21,15 @@
 
   .axit_row{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-between;
   }
 
+  .axit_description{
+    max-width: 544px;
+  }
     .axit_main_title{
     font-family: 'Roboto';
     font-style: normal;

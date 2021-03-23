@@ -19,7 +19,7 @@
 .pricing-card__item{
     display: inline-block;
     margin: 0 39px;
-    width: 340px;
+    max-width: 340px;
 }
 
 .pricing-card__item:hover{
