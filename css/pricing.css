@@ -6,19 +6,19 @@
     }
 
 .title{
-    width: 409px; 
+    max-width: 100%; 
     }
 
 .pricing_row{
-    margin:auto;
     display: flex;
     margin-top: 63px;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .pricing-card__item{
-    display: inline-block;
-    margin: 0 39px;
+    
+    margin: 0 15px;
     max-width: 340px;
 }
 
@@ -32,7 +32,7 @@ transition: 0.8s ease;
 }
 
 .card_subtitle{
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 700;
     text-align: center;    

@@ -20,7 +20,7 @@
   }
   .axure_title{
     text-align: center;
-    white-space: nowrap;
+    white-space: wrap;
     margin:auto;
     font-family: 'Raleway';
     font-style: normal;
@@ -58,7 +58,7 @@
     flex-grow: 0;
     margin: 34px 0px;
     color: rgba(255, 255, 255, 0.8);
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     }
 
     .axure_button{
@@ -67,7 +67,7 @@
     border: 1px solid #FFFFFF;
     text-align: center;
     width: 135px;
-    padding: 11px 26px;
+    padding: 11px 0;
     }
 
     .axure_button:hover{

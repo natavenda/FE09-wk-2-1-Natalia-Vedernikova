@@ -7,14 +7,14 @@
 
 .features_row{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
 .features_tabs{
     display: flex;
     flex-direction: column;
+
     }
 
 
@@ -36,6 +36,9 @@
     color: #FFFFFF;
     margin-bottom: 10px;
 }
+.btn_features:last-child {
+    margin-bottom: 0px;
+  }
 .btn_features:hover{
     background-color: #EC7979;
     color: blueviolet;
@@ -44,11 +47,11 @@
     }
 
 .features_description{
-    padding-left: 118px;
-    padding-right: 50px;
+    max-width: 572px;
     display: block;
     align-items: center;
     justify-content: center;
+    margin: 0 15px;
 }
 
 .features_title{
@@ -100,8 +103,9 @@ padding: 11px 27px 11px 27px;
 }
 
 .features_image{
-margin-top: -25px;
-align-self: flex-start;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
 }
 
 .features-image{

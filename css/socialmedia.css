@@ -7,9 +7,7 @@
   .socialmedia_row {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1478px;
   }
   
   .socialmedia_title {
@@ -20,6 +18,10 @@
     line-height: 27px;
     color: #333333;
     margin-bottom: 14px;
+  }
+
+  .socialmedia_description {
+    max-width: 365px;
   }
 
   .socialmedia_text {
@@ -35,6 +37,7 @@
   }
 
   .socialmedia_icons{
+    margin: 15px 0;
     width: 684px;
   }
 
@@ -42,6 +45,8 @@
     color: #BDBDBD;
     font-family: "Font Awesome 5 Free";
     font-size: 42px;
+    list-style: none;
+    text-decoration: none;
   }
 
   .socialmedia_icon:hover{
@@ -50,9 +55,21 @@
     color:salmon
   }
   
-  .socialmedia_icons_list{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    text-decoration: none;
+.socialmedia_icons_list{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .socialmedia_row {
+    align-items: center;
+    justify-content: center;
   }
+  .socialmedia_row {
+    flex-wrap: wrap;
+  }
+  .socialmedia_title,
+  .socialmedia_text {
+    text-align: center;
+  }
+}

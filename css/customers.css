@@ -4,14 +4,26 @@
     width: 100%;
     }
 
-    .title{
-    width: 668px;
+    .customers_title{
+    max-width: 668px;
+    display: flex;
+    text-align: center;
+    white-space: wrap;
+    margin:auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #212121;
     }
 
 .customers_row{
     margin-top: 67px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .customers_element{
