@@ -68,3 +68,9 @@ color:green;
 background-color: greenyellow;
 transition: 0.8s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .navigator {
+  display: none;
+   }
+ }

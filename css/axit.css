@@ -22,7 +22,7 @@
   .axit_row{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
   }
@@ -93,7 +93,7 @@
     .axit_button{
     border: 1px solid #FFFFFF;
     text-align: center;
-    width: 135px;
+    max-width: 135px;
     padding: 11px 27px 11px 25px;
     }
 
@@ -125,26 +125,6 @@
       max-width: 370px;
     }
 
-    @media (max-width: 768px) {
-      .axit_title,
-      .axit_main_title,
-      .axit_text {        
-        text-align: center;
-        justify-content: center;
-      }
-      .axit_form {
-        margin-top: 50px;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .axit_row,
-      .axit_line,
-      .axit_button {
-        justify-content: center;
-      }
-    }
-
     .axit__form_title{
       font-family: 'Open Sans';
       font-style: normal;
@@ -152,9 +132,9 @@
       font-size: 20px;
       line-height: 27px;
       max-width: 252px;
-      white-space: nowrap;
+      flex-wrap: wrap;
       display: flex;
-      align-items: center;
+      margin: auto;
       text-align: center;
       color: #333333; 
       margin-bottom: 44px;
@@ -224,4 +204,61 @@
       color: violet;
       text-decoration: underline;
       box-shadow: 0 10px 40px rgba(219, 5, 166, 0.726);
+    }
+    @media (max-width: 768px) {
+      .axit_title,
+      .axit_main_title{      
+        text-align: center;
+      }
+      .axit__form_title,
+      .axit_form_link{      
+      display: block;
+       }
+      .axit_text{
+        margin: auto;
+        margin-bottom: 39px;
+        text-align: center;
+      }
+      .axit_line{
+        margin:auto;
+        margin-bottom: 39px;
+      }
+      .axit_form {
+        margin-top: 50px;
+      }
+      .axit_row,
+      .axit_description{
+        justify-content: center;
+        flex-wrap: wrap;
+      }     
+      .axit_button{
+      margin: auto;
+      }
+    }
+
+    @media (max-width: 320px) {
+
+      .axit__form_title,
+      .axit_form_link{      
+       display: block;
+            }
+    }
+
+     
+    @media (max-width: 375px) {
+
+      .axit__form_title,
+      .axit_form_link{      
+      display: block;
+       }
+      
+    }
+
+    @media (max-width: 411px) {
+
+      .axit__form_title,
+      .axit_form_link{      
+      display: block;
+       }
+      
     }

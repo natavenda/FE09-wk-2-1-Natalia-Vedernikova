@@ -26,6 +26,9 @@
     flex-wrap: wrap;
 }
 
+.customers_description{
+ text-align: center;
+}
 .customers_element{
   display: flex;
   max-width: 298px;
@@ -135,3 +138,30 @@
   .avatar {
     height: 100%;
   }
+  @media screen and (max-width: 768px) {
+    .customers_element {        
+    margin-bottom: 70px;
+    }
+    .customers_element:last-child{
+      margin-bottom: 0;
+      }
+    .customers_row{
+    justify-content: center;
+    }
+
+    }
+
+    @media screen and (max-width: 1024px) {
+
+      .customers_element {        
+        margin-bottom: 70px;
+        }
+        .customers_element:last-child{
+          margin-bottom: 0;
+          }
+      .customers_row{
+      justify-content: center;
+
+      }
+  
+    }

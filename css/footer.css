@@ -6,17 +6,22 @@
 
 .footer_social_icons_list{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 .footer_social_icon{
-    margin-right: 23px;
+
     color: #BDBDBD;
     font-family: "Font Awesome 5 Free";
     font-size: 23px;
 }
+.footer_social_icon:last-child{
+    margin-right: 0;
+    }
 
 .footer_social_icons{
     max-width: 317px;
@@ -35,3 +40,4 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
+

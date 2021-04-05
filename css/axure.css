@@ -38,7 +38,7 @@
       background-color: turquoise;
     }
 
-.axure_line{
+    .axure_line{
     margin:auto;
     margin-top: 34px;
     width: 64px;
@@ -47,7 +47,7 @@
     }
   
     .axure_description{
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -59,6 +59,8 @@
     margin: 34px 0px;
     color: rgba(255, 255, 255, 0.8);
     flex-wrap: wrap;
+    display: block;
+    max-width: 100%;
     }
 
     .axure_button{
@@ -91,3 +93,4 @@
       transition: 0.8s ease;
       color: violet;
     }
+   

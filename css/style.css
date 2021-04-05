@@ -33,7 +33,7 @@ border-top: 1px solid #D98943;
 
 .title{
 text-align: center;
-white-space: nowrap;
+display: block;
 margin:auto;
 font-family: 'Raleway';
 font-style: normal;
@@ -45,12 +45,24 @@ color: #212121;
 }
 
 .text{
-
     margin:auto;
     margin-top: 30px;
-    width: 363px;
+    max-width: 363px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     color: #86878B;
 }
+@media screen and (max-width: 768px) {
+   .text {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .text {
+       text-align: center;
+       margin: auto;
+       margin-top: 30px;
+     }
+   }
+

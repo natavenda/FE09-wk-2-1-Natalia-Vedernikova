@@ -11,7 +11,7 @@
 }
 
 .title{
-    width: 409px; 
+    max-width: 409px; 
     text-align: center;
     white-space: wrap;
     margin:auto;
@@ -68,6 +68,7 @@
     margin-top: 20px;
     
 }
+
 @media (max-width: 768px) {
     .element {        
         margin-bottom: 70px;
@@ -75,4 +76,10 @@
     .element:last-child{
         margin-bottom: 0;
         }
+}
+@media (max-width: 1024px) {
+    .element {        
+        margin-bottom: 70px;
     }
+
+}
